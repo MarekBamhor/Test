@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% block title %}<title>Stygia</title>{% endblock %}
+        {% block head %}
+            <nav>
+                <div id="linktree">
+                    <a href="/">Home</a>
+                    <a href="/about">About me</a>
+                    <a href="/plans">Future plans</a>
+                    <a href="/payme">Pay back</a>
+                    <a href="/contact">Get in touch</a>
+                </div>
+            </nav>
+        {% endblock %}
+</head>
+<body>
+        {% block content %}
+            <p>This is home oy</p>
+        {% endblock %}
+</body>
+</html>

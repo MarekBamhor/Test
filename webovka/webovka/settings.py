@@ -70,6 +70,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'webovka.wsgi.application'
 
+# E-mail settings
+DEFAULT_FROM_EMAIL = "marek.bamhor@gmail.com"
+EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases

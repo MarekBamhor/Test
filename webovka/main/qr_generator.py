@@ -8,7 +8,7 @@ qrcd = qrcode.QRCode(
 )
 
 
-data = "https://www.seznam.cz/"
+data = "https://www.youtube.com/"
 qrcd.add_data(data)
 
 qrcd.make(fit="TRUE")

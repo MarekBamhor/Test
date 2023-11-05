@@ -10,8 +10,8 @@ def about(request):
 def plans(request):
     return render(request, "plans.html")
 
-def payme(request):
-    return render(request, "payme.html")
+def famtree(request):
+    return render(request, "famtree.html")
 
 def contact(request):
     return render(request, "contact.html")

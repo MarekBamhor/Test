@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4710c985-ca24-486f-a23b-615978407ad8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/webovka/main/qrcode_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/webovka/main/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webovka/webovka/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/webovka/webovka/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webovka/main/QRko.png" beforeDir="false" afterPath="$PROJECT_DIR$/webovka/main/QRko.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webovka/main/qr_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/webovka/main/qr_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webovka/main/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/webovka/main/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webovka/main/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/webovka/main/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webovka/main/templates/payme.html" beforeDir="false" afterPath="$PROJECT_DIR$/webovka/main/templates/famtree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webovka/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/webovka/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webovka/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/webovka/main/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +53,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.qr_generator">
+  <component name="RunManager" selected="Python.family_tree">
     <configuration name="dfjdni" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="mysite" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -62,6 +68,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../pythonProject1/dfjdni.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="family_tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mysite" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webovka/main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/webovka/main/family_tree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,6 +144,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.family_tree" />
         <item itemvalue="Python.qr_generator" />
         <item itemvalue="Python.google_weather" />
         <item itemvalue="Python.dfjdni" />
@@ -140,7 +169,9 @@
       <workItem from="1696673361903" duration="2164000" />
       <workItem from="1696703245193" duration="6009000" />
       <workItem from="1697052078413" duration="3510000" />
-      <workItem from="1697673572257" duration="1887000" />
+      <workItem from="1697673572257" duration="2416000" />
+      <workItem from="1698003381513" duration="2917000" />
+      <workItem from="1698078365072" duration="25735000" />
     </task>
     <servers />
   </component>
@@ -148,6 +179,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/mysite$qr_generator.coverage" NAME="qr_generator Coverage Results" MODIFIED="1697058452008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webovka/main" />
+    <SUITE FILE_PATH="coverage/mysite$family_tree.coverage" NAME="family_tree Coverage Results" MODIFIED="1699216277001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webovka/main" />
+    <SUITE FILE_PATH="coverage/mysite$qr_generator.coverage" NAME="qr_generator Coverage Results" MODIFIED="1698078820460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webovka/main" />
   </component>
 </project>
